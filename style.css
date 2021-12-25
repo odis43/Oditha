@@ -84,11 +84,14 @@ img.img-fluid{
 .with-love{
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal; 
-    padding-top: 5px;   
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-weight: bolder; 
+    padding-top: 5px; 
+    
 }
 
 .fa-heart {
