@@ -58,14 +58,13 @@ text-align: center;
 
 
 h6.quote{
-
 font-style: normal;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Varela', sans-serif;
-font-weight: normal;
+font-weight:bolder;
 font-size: 12px;
-font-weight: 300px;
+
 }
 
 i.resume{
@@ -73,6 +72,8 @@ i.resume{
     top: -20px;
     font-size: 50px;
     color: black;
+    padding-top: 40px;
+    right: 190px;
 }
 
 img.img-fluid{
@@ -86,7 +87,8 @@ img.img-fluid{
     font-size: 15px;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;    
+    font-weight: normal; 
+    padding-top: 5px;   
 }
 
 .fa-heart {
@@ -110,7 +112,7 @@ img.img-fluid{
         transform:scale(1.15);
       }
   }
-
+  
   h1.about-me{
     color: black;    
     position:relative;
@@ -122,7 +124,20 @@ img.img-fluid{
     color: black;
     font-size: medium;
     text-align: left;
-    
+  }
+
+  h3.about-me{
+    color: rgb(102, 102, 102);
+    font-size:25px;
+  }
+
+  li.about-me{
+    color: black;
+  }
+
+  h4.list-h4{
+    color: black;
+    font-size: medium;
   }
   
   div.personal{
@@ -132,3 +147,16 @@ img.img-fluid{
   i.fa-chevron-circle-down{
     font-size: 25px;
   }
+/**
+  footer{
+    background-color: rgb(236, 236, 236);
+    width:auto;
+    height: 100%;
+  }
+  
+  
+/**
+  
+  
+  
+ 
