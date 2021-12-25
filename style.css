@@ -5,7 +5,7 @@ body{
 h1.odi{
 position: relative;
 right:20px;
-top:4px;
+top:1px;
 font-style: normal;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
@@ -49,17 +49,18 @@ i.fab{
 
 h1.fuck{
 font-style: normal;
-font-family: 'Varela', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: normal;
-padding-top: 10px;
-font-size: 15px;
+padding-top: 1px;
+font-size: 14px;
 text-align: center;
 }
+
 
 h6.quote{
 
 font-style: normal;
-font-family: 'Varela', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: 12px;
 }
@@ -81,7 +82,7 @@ img.img-fluid{
     color: black;
     font-size: 15px;
     font-style: normal;
-    font-family: 'Varela', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;    
 }
 
@@ -106,4 +107,25 @@ img.img-fluid{
         transform:scale(1.15);
       }
   }
+
+  h1.about-me{
+    color: black;    
+    position:relative;
+    text-align: justify;
+    padding-top: 285px;
+   
+  }
+  h4.about-me{
+    color: black;
+    font-size: medium;
+    text-align: left;
+    
+  }
   
+  div.personal{
+    padding-left: 110px;
+  }
+
+  i.fa-chevron-circle-down{
+    font-size: 25px;
+  }
