@@ -1,3 +1,86 @@
-body {
-    color: aqua;
+body{
+    color: rgb(232, 241, 244);
+}
+
+h1.odi{
+position: relative;
+right:20px;
+top:4px;
+font-style: normal;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+padding-top: 35px;
+color: black;
+}
+
+span.rest-name{
+    color: rgb(151, 192, 231);
+}
+
+div.mx-3{
+width: 78px;
+height: 78px;
+}
+
+.fab{
+    font-size: 50px;
+    vertical-align: 30px;
+}
+
+.col.d-flex.justify-content-center{
+   position: relative;
+   left: 10px;
+}
+
+i.fab{
+    color: black;
+    position: relative;
+}
+
+#icons{
+    position: relative;
+    top: 15px;
+    right: 20px;
+    padding-bottom: 10px;
+}
+
+
+h1.fuck{
+font-style: normal;
+font-family: 'Varela', sans-serif;
+font-weight: normal;
+padding-top: 10px;
+font-size: 15px;
+text-align: center;
+}
+
+h6.quote{
+
+font-style: normal;
+font-family: 'Varela', sans-serif;
+font-weight: normal;
+font-size: 12px;
+}
+
+i.resume{
+    position: relative;
+    top: -20px;
+    font-size: 50px;
+    color: black;
+}
+
+img.img-fluid{
+    position: relatve;
+    vertical-align: 1px;
+}
+
+.with-love{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Varela', sans-serif;
+    font-weight: normal;    
 }
