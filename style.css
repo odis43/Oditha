@@ -4,7 +4,7 @@ body{
 
 h1.odi{
 position: relative;
-right:20px;
+right:30px;
 top:1px;
 font-style: normal;
 font-family: 'Roboto', sans-serif;
@@ -150,16 +150,25 @@ img.img-fluid{
   i.fa-chevron-circle-down{
     font-size: 25px;
   }
-/**
-  footer{
-    background-color: rgb(236, 236, 236);
-    width:auto;
-    height: 100%;
-  }
+
   
-  
-/**
-  
-  
-  
- 
+  #picture {
+    padding-bottom:15px;
+    object-fit:cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 415.99px;
+    height: 329.99px;
+}
+
+footer{
+  background: linear-gradient( 
+  45deg, #f0f0f0, #f0f0f0 10px, #e3e3e3 10px, #d6ecf3 20px );
+  height: 40px;
+  border-top: 2px solid black;
+}
+
+h3.with-love{
+  vertical-align:middle;
+  padding-top: 10px;
+}
