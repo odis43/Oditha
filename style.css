@@ -47,7 +47,7 @@ i.fab{
 }
 
 
-h1.fuck{
+h1.school{
 font-style: normal;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
@@ -64,7 +64,6 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Varela', sans-serif;
 font-weight:bolder;
 font-size: 12px;
-
 }
 
 i.resume{
@@ -90,11 +89,10 @@ img.img-fluid{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Varela', sans-serif;
     font-weight: bolder; 
-    padding-top: 5px; 
-    
+    padding-top: 5px;
 }
 
-.fa-heart {
+/*.fa-heart {
     animation:fa-heart 1.5s ease infinite;
   }
   @keyframes fa-heart {
@@ -114,7 +112,7 @@ img.img-fluid{
       35% {
         transform:scale(1.15);
       }
-  }
+  }*/
   
   h1.about-me{
     color: black;    
@@ -154,16 +152,15 @@ img.img-fluid{
   
   #picture {
     padding-bottom:15px;
-    object-fit:cover;
+    object-fit:fill;
     max-width: 100%;
     max-height: 100%;
-    width: 415.99px;
-    height: 329.99px;
+    width: 416px;
+    height: 330px;
 }
 
 footer{
-  background: linear-gradient( 
-  45deg, #f0f0f0, #f0f0f0 10px, #e3e3e3 10px, #d6ecf3 20px );
+  background-color: rgb(197, 218, 231, 0.4);
   height: 40px;
   border-top: 2px solid black;
 }
