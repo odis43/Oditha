@@ -17,6 +17,7 @@ color: black;
 
 span.rest-name{
     color: rgb(151, 192, 231);
+    
 }
 
 div.mx-3{
@@ -92,27 +93,6 @@ img.img-fluid{
     padding-top: 5px;
 }
 
-/*.fa-heart {
-    animation:fa-heart 1.5s ease infinite;
-  }
-  @keyframes fa-heart {
-    0% {
-      transform:scale(1);
-    }
-    5% {
-      transform:scale(1.15);
-    }
-    20% {
-      transform:scale(1);
-    }
-
-    30% {
-        transform:scale(1);
-      }
-      35% {
-        transform:scale(1.15);
-      }
-  }*/
   
   h1.about-me{
     color: black;    
@@ -159,13 +139,79 @@ img.img-fluid{
     height: 330px;
 }
 
-footer{
-  background-color: rgb(197, 218, 231, 0.4);
-  height: 40px;
-  border-top: 2px solid black;
+.footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(151, 192, 231);
+   color: white;
+   text-align: center;
 }
 
 h3.with-love{
   vertical-align:middle;
   padding-top: 10px;
 }
+
+.Manulife {
+  text-decoration: none;
+  color: black
+}
+.Manulife:hover {
+  color:rgb(0, 172, 91); ;
+}
+
+.proj {
+  position:absolute;
+  top:15px;
+  right:15px;
+  font-size: x-large;
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+
+  transition: all .5s ease;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(1, 1, 1);
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.proj:hover {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
